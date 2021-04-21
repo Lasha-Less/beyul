@@ -53,7 +53,7 @@ aside {
 .maintext {
   font-family: sans-serif;
   /*display: flow-root;*/
-  padding: 1% 5% 5% 1%;
+  padding: 1% 5% 5% 5%;
   margin: auto;
   text-align: justify;
 }
