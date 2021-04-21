@@ -1,0 +1,93 @@
+/* color paletter 
+002642 Prussian Blue
+840032 Claret
+E59500 Gamboge
+E5DADA Gainsboro
+02040F Rich Black Fogra 29 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #e5dada;
+}
+
+a {
+  color: #e59500;
+}
+
+header {
+  background-color: #002642;
+  background-image: url("Spinoza_5.png");
+  background-position: 5% 45%;
+  background-repeat: no-repeat;
+  border: 1px;
+  padding: 5%;
+  margin: 0%;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+}
+
+main {
+  background-color: #02040f;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+aside {
+  float: right;
+  /*display: block;*/
+  margin: 1% 5% 5% 5%;
+  padding: 1% 1% 1% 2%;
+  line-height: 2;
+  border: solid;
+  border-color: #e59500;
+}
+
+.maintext {
+  font-family: sans-serif;
+  /*display: flow-root;*/
+  padding: 1% 5% 5% 1%;
+  margin: auto;
+  text-align: justify;
+}
+
+h1 {
+  font-family: sans-serif;
+  padding: 40px 50% 0px 20px;
+}
+
+h2,
+h3 {
+  font-family: sans-serif;
+  padding-left: 20px;
+}
+
+footer {
+  background: #840032;
+  background-image: url("icon_12.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+  font-family: sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.copyleft {
+  display: inline-block;
+  font-family: sans-serif;
+  transform: rotate(180deg);
+}
+
+#time {
+  font-family: monospace;
+  font-size: small;
+}
